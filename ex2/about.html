@@ -1,28 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <title>Sanjay's Grocery</title>
     <style>
-        ul{
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #ffffff;
+            background: linear-gradient(to right, #35d2fe, #e44eff,#d900ff);
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
             list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 8px 16px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul a:hover {
+            background-color: #575757;
+            border-radius: 4px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background: linear-gradient(to right, #d900ff, #e44eff,#35d2fe);
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        hr {
+            margin: 0;
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .container {
+                padding: 10px;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Sanjay's grocery</h1>
+        <h1>Sanjay's Grocery</h1>
     </header>
-    <hr>
     <nav>
         <ul>
-            <a href="ex-2.html">Home</a>
-            <a href="cart.html">Cart</a>
-            <a href="login.html">Login</a>
+            <li><a href="ex-2.html">Home</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login</a></li>
         </ul>
     </nav>
-    <h1>About Website</h1>
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis ipsam facere sint? Tempora ea asperiores fuga possimus ipsum facere? Optio sunt, consectetur molestias cum quas nisi iure autem, obcaecati quaerat ut modi exercitationem molestiae blanditiis dolore, ea alias aliquam et nemo beatae nobis quasi expedita maiores. Sit facilis pariatur quasi, asperiores quam exercitationem officiis placeat soluta veniam voluptas quis explicabo nam obcaecati vel assumenda tempore minima illo quibusdam incidunt reprehenderit dicta sequi, cumque natus. Dolorum, sapiente optio eligendi praesentium fugiat ex maxime labore veniam accusamus nesciunt vitae tempore voluptatum quo assumenda aspernatur! Corrupti soluta odio rem nisi officia repellat commodi? Earum id aperiam minus eum accusantium temporibus dicta quisquam assumenda quibusdam necessitatibus ut eos repellendus maiores est dolorum aliquam fuga qui cumque nemo impedit ad, sit numquam delectus at! Blanditiis odit, architecto hic illo obcaecati, qui sed esse, voluptatem voluptatibus sequi quos. Labore voluptate ex corrupti doloremque odio dolorum numquam eius dolore rem minus amet ipsum reprehenderit qui libero ducimus ullam nisi, itaque recusandae quos molestias. Nulla deleniti labore sed consectetur laborum, dignissimos fugit hic dolorum ipsam fuga architecto cum placeat ipsa, vero veniam obcaecati, perspiciatis nostrum ex ab ea aliquid unde quas. Eius fugit ab quidem rem sed odit labore earum repellendus aspernatur corrupti saepe unde modi vitae, in, hic explicabo deserunt enim quaerat dolor dolorem. Amet molestiae at autem ad eaque exercitationem obcaecati commodi saepe consequuntur nesciunt in temporibus quos natus, enim dolore, numquam excepturi fugit asperiores dicta ullam et vitae minus! Sequi molestiae totam expedita, consequatur ullam quo debitis quibusdam nemo ipsa itaque quaerat nulla, necessitatibus nam repellendus odit impedit dolore, accusamus id! Provident odio, inventore aperiam illo maxime animi nisi deserunt veritatis? Totam libero ipsa voluptas voluptatum provident saepe odio nulla ducimus fuga repudiandae harum possimus earum, vel illum esse velit aliquid perspiciatis vitae a nemo? Architecto cum neque explicabo! A perferendis nisi amet? Aliquam cum alias quia. Adipisci optio rerum officia ab suscipit natus, voluptate, eum sapiente, soluta doloremque dolorum minus earum repellat nulla cupiditate voluptas distinctio iusto? Placeat aliquam, neque voluptatibus reprehenderit atque doloremque rem ullam eveniet? Animi distinctio assumenda, magnam suscipit enim necessitatibus commodi amet! Unde fugiat, tempora nemo cumque sit alias illo facere eos iste sed quasi dicta voluptatem officiis ipsum perferendis sequi, modi vero earum repellendus id beatae exercitationem nisi non. Cum voluptas minima veritatis autem? Iure, excepturi totam? Sed, labore nesciunt incidunt quibusdam saepe iusto adipisci. Consequuntur veritatis cumque inventore qui veniam quibusdam sequi dolorum quisquam deleniti ipsa. Nam, nemo architecto dignissimos, et atque eligendi magni aspernatur voluptas omnis impedit iusto deleniti rem modi itaque qui deserunt incidunt perferendis saepe porro maxime non tempore. Velit nisi veniam voluptatem quis voluptas, et ex. Nostrum voluptate ratione consequuntur soluta est similique molestias sit laboriosam fuga eum, vel dolores tempore vero beatae illum, molestiae odio officia? Voluptates totam perferendis accusamus doloremque repellat quam, obcaecati itaque velit maxime architecto quaerat, animi cumque ex illo quo, magnam est possimus nemo consequatur sunt recusandae? Quasi suscipit cupiditate optio dolorum sint vero architecto, laboriosam eveniet amet minus?
-    </p>
+    <div class="container">
+        <h1>About Website</h1>
+        <p>
+            Welcome to Sanjay's Grocery! This website is designed to provide a convenient, fast, and user-friendly experience for online grocery shopping. Whether you're buying fresh vegetables, dairy products, or daily essentials, our store brings everything to your fingertips. Our goal is to connect local vendors and customers in a seamless shopping experience. This website is mobile-friendly, safe, and constantly updated to ensure you get the best service possible.
+        </p>
+    </div>
 </body>
 </html>
